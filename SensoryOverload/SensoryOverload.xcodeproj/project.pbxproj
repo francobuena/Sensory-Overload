@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A73FE84F2D509457001D1FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73FE8362D509456001D1FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73FE83D2D509456001D1FAB;
+			remoteInfo = SensoryOverload;
+		};
+		A73FE8592D509457001D1FAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A73FE8362D509456001D1FAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A73FE83D2D509456001D1FAB;
+			remoteInfo = SensoryOverload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A73FE83E2D509456001D1FAB /* SensoryOverload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SensoryOverload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73FE84E2D509457001D1FAB /* SensoryOverloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoryOverloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A73FE8582D509457001D1FAB /* SensoryOverloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensoryOverloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A73FE8752D51649D001D1FAB /* Exceptions for "SensoryOverload" folder in "SensoryOverload" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A73FE83D2D509456001D1FAB /* SensoryOverload */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A73FE8402D509456001D1FAB /* SensoryOverload */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A73FE8752D51649D001D1FAB /* Exceptions for "SensoryOverload" folder in "SensoryOverload" target */,
+			);
+			path = SensoryOverload;
+			sourceTree = "<group>";
+		};
+		A73FE8512D509457001D1FAB /* SensoryOverloadTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SensoryOverloadTests;
+			sourceTree = "<group>";
+		};
+		A73FE85B2D509457001D1FAB /* SensoryOverloadUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SensoryOverloadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A73FE83B2D509456001D1FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73FE84B2D509457001D1FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73FE8552D509457001D1FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A73FE8352D509456001D1FAB = {
+			isa = PBXGroup;
+			children = (
+				A73FE8402D509456001D1FAB /* SensoryOverload */,
+				A73FE8512D509457001D1FAB /* SensoryOverloadTests */,
+				A73FE85B2D509457001D1FAB /* SensoryOverloadUITests */,
+				A73FE83F2D509456001D1FAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A73FE83F2D509456001D1FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A73FE83E2D509456001D1FAB /* SensoryOverload.app */,
+				A73FE84E2D509457001D1FAB /* SensoryOverloadTests.xctest */,
+				A73FE8582D509457001D1FAB /* SensoryOverloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A73FE83D2D509456001D1FAB /* SensoryOverload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73FE8622D509457001D1FAB /* Build configuration list for PBXNativeTarget "SensoryOverload" */;
+			buildPhases = (
+				A73FE83A2D509456001D1FAB /* Sources */,
+				A73FE83B2D509456001D1FAB /* Frameworks */,
+				A73FE83C2D509456001D1FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A73FE8402D509456001D1FAB /* SensoryOverload */,
+			);
+			name = SensoryOverload;
+			packageProductDependencies = (
+			);
+			productName = SensoryOverload;
+			productReference = A73FE83E2D509456001D1FAB /* SensoryOverload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A73FE84D2D509457001D1FAB /* SensoryOverloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73FE8652D509457001D1FAB /* Build configuration list for PBXNativeTarget "SensoryOverloadTests" */;
+			buildPhases = (
+				A73FE84A2D509457001D1FAB /* Sources */,
+				A73FE84B2D509457001D1FAB /* Frameworks */,
+				A73FE84C2D509457001D1FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73FE8502D509457001D1FAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A73FE8512D509457001D1FAB /* SensoryOverloadTests */,
+			);
+			name = SensoryOverloadTests;
+			packageProductDependencies = (
+			);
+			productName = SensoryOverloadTests;
+			productReference = A73FE84E2D509457001D1FAB /* SensoryOverloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A73FE8572D509457001D1FAB /* SensoryOverloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A73FE8682D509457001D1FAB /* Build configuration list for PBXNativeTarget "SensoryOverloadUITests" */;
+			buildPhases = (
+				A73FE8542D509457001D1FAB /* Sources */,
+				A73FE8552D509457001D1FAB /* Frameworks */,
+				A73FE8562D509457001D1FAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A73FE85A2D509457001D1FAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A73FE85B2D509457001D1FAB /* SensoryOverloadUITests */,
+			);
+			name = SensoryOverloadUITests;
+			packageProductDependencies = (
+			);
+			productName = SensoryOverloadUITests;
+			productReference = A73FE8582D509457001D1FAB /* SensoryOverloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A73FE8362D509456001D1FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A73FE83D2D509456001D1FAB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A73FE84D2D509457001D1FAB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A73FE83D2D509456001D1FAB;
+					};
+					A73FE8572D509457001D1FAB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A73FE83D2D509456001D1FAB;
+					};
+				};
+			};
+			buildConfigurationList = A73FE8392D509456001D1FAB /* Build configuration list for PBXProject "SensoryOverload" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A73FE8352D509456001D1FAB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A73FE83F2D509456001D1FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A73FE83D2D509456001D1FAB /* SensoryOverload */,
+				A73FE84D2D509457001D1FAB /* SensoryOverloadTests */,
+				A73FE8572D509457001D1FAB /* SensoryOverloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A73FE83C2D509456001D1FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73FE84C2D509457001D1FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73FE8562D509457001D1FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A73FE83A2D509456001D1FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73FE84A2D509457001D1FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73FE8542D509457001D1FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A73FE8502D509457001D1FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73FE83D2D509456001D1FAB /* SensoryOverload */;
+			targetProxy = A73FE84F2D509457001D1FAB /* PBXContainerItemProxy */;
+		};
+		A73FE85A2D509457001D1FAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A73FE83D2D509456001D1FAB /* SensoryOverload */;
+			targetProxy = A73FE8592D509457001D1FAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A73FE8602D509457001D1FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A73FE8612D509457001D1FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A73FE8632D509457001D1FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SensoryOverload/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RRBP68HUQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SensoryOverload/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is required to get current altitude and position";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is required to get the current position and altitude";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ocnarf.SensoryOverload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A73FE8642D509457001D1FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SensoryOverload/Preview Content\"";
+				DEVELOPMENT_TEAM = 2RRBP68HUQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SensoryOverload/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is required to get current altitude and position";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is required to get the current position and altitude";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ocnarf.SensoryOverload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A73FE8662D509457001D1FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRBP68HUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ocnarf.SensoryOverloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensoryOverload.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SensoryOverload";
+			};
+			name = Debug;
+		};
+		A73FE8672D509457001D1FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRBP68HUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ocnarf.SensoryOverloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SensoryOverload.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SensoryOverload";
+			};
+			name = Release;
+		};
+		A73FE8692D509457001D1FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRBP68HUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ocnarf.SensoryOverloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensoryOverload;
+			};
+			name = Debug;
+		};
+		A73FE86A2D509457001D1FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2RRBP68HUQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ocnarf.SensoryOverloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SensoryOverload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A73FE8392D509456001D1FAB /* Build configuration list for PBXProject "SensoryOverload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73FE8602D509457001D1FAB /* Debug */,
+				A73FE8612D509457001D1FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73FE8622D509457001D1FAB /* Build configuration list for PBXNativeTarget "SensoryOverload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73FE8632D509457001D1FAB /* Debug */,
+				A73FE8642D509457001D1FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73FE8652D509457001D1FAB /* Build configuration list for PBXNativeTarget "SensoryOverloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73FE8662D509457001D1FAB /* Debug */,
+				A73FE8672D509457001D1FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A73FE8682D509457001D1FAB /* Build configuration list for PBXNativeTarget "SensoryOverloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73FE8692D509457001D1FAB /* Debug */,
+				A73FE86A2D509457001D1FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A73FE8362D509456001D1FAB /* Project object */;
+}
